@@ -38,3 +38,7 @@ To produce something like this:
 ![3c](https://github.com/csae-coders-corner/How-to-make-bar-charts-of-impacts-with-standard-errors/assets/148211163/0642a8c8-3559-4142-8f2e-ed7bd001d9f0)
 
 The command also has a range of capabilities to choose exactly how the bars, labels and legend look, so you can customise the chart to precisely your taste. 
+
+AUTHOR: Emma Riley, University of Michigan (former DPhil candidate in the Department of Economics, Oxford)
+
+28.01.2019
