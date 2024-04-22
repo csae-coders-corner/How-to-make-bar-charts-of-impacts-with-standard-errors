@@ -1,3 +1,6 @@
+
+![CC Graphics 2024_BarCharts](https://github.com/csae-coders-corner/How-to-make-bar-charts-of-impacts-with-standard-errors/assets/148211163/e6ac516a-d6a5-4afe-ad8d-442924a51d26)
+
 # How-to-make-bar-charts-of-impacts-with-standard-errors
 Previously creating a bar chart with standard error bars was a multistep process requiring you to create the standard error range yourself and overlay two charts on top of each other. The command cibar makes this process simple. 
 Let’s say we want to plot a graph of impacts by two treatment groups. cibar takes the following syntax: 
