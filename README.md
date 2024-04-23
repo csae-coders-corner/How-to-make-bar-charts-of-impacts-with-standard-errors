@@ -5,7 +5,7 @@
 Previously creating a bar chart with standard error bars was a multistep process requiring you to create the standard error range yourself and overlay two charts on top of each other. The command cibar makes this process simple. 
 Let’s say we want to plot a graph of impacts by two treatment groups. cibar takes the following syntax: 
 
-	cibar y, over1(treatment) 
+	`cibar y, over1(treatment)`
 
 And produces an output like this: 
 
@@ -13,15 +13,16 @@ And produces an output like this:
 
 
 You can easily add the usual twoway graph options using the syntax: 
-cibar y, over1(treatment) graphopts(twoway graph options)
+`cibar y, over1(treatment) graphopts(twoway graph options)`
 
 For example: 
-
+```
 	cibar y, over1(treatment) ///
 graphopts( legend( order(1 "Control" 2 "Treatment")) ///
 xtitle("") ytitle("Mean Y") ///
 title("Treatment effects on Y") ///
 subtitle("Mean and 95% confidence interval"))
+```
 
 Which produces:
 
@@ -30,11 +31,13 @@ Which produces:
 
 cibar also has the capability to show bar charts over multiple different groups using the options over2(group2), over3(group3) etc:
 
+```
 cibar y, over1(treatment) over2(female) ///
 graphopts( legend( order(1 "Control" 2 "Treatment")) ///
 xtitle("") ytitle("Mean Y") ///
 title("Treatment effects on Y") ///
 subtitle("Mean and 95% confidence interval"))
+```
 
 To produce something like this:
 
